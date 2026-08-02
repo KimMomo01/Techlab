@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - TechLab</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>TechLab Dashboard</h1>
+    <p id="welcomeMessage">Loading account details...</p>
+
+    <div class="dashboard-actions">
+        <button onclick="logoutUser()">Logout</button>
+    </div>
+</div>
+
+<!-- Supabase CDN -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../javascript/auth.js"></script>
+<script src="../javascript/app.js"></script>
+</body>
+</html>
